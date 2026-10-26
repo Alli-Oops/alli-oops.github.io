@@ -1,174 +1,128 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Phillip Coulson Psychotherapy</title>
-  <meta property="og:title" content="Phillip Coulson Psychotherapy" />
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="Phillip Coulson Psychotherapy" />
-  <style>
-    * { box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
-    body {
-      margin: 0;
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      color: #222;
-      background: #fff;
-      line-height: 1.7;
-    }
-    a { color: inherit; }
-
-    /* Header */
-    header {
-      position: absolute;
-      top: 0; left: 0; right: 0;
-      z-index: 10;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 28px 5vw;
-      color: #fff;
-    }
-    .site-title {
-      font-size: 1.25rem;
-      font-weight: 600;
-      letter-spacing: 0.02em;
-      text-decoration: none;
-    }
-    nav ul {
-      list-style: none;
-      display: flex;
-      gap: 32px;
-      margin: 0;
-      padding: 0;
-    }
-    nav a {
-      text-decoration: none;
-      font-size: 1rem;
-    }
-    nav a:hover { text-decoration: underline; }
-
-    /* Hero */
-    .hero {
-      position: relative;
-      min-height: 70vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      background: url("./Resources/Images/Forest.png") center / cover no-repeat;
-      color: #fff;
-    }
-    .hero::before {
-      content: "";
-      position: absolute;
-      inset: 0;
-      background: rgba(0, 0, 0, 0.35);
-    }
-    .hero h1 {
-      position: relative;
-      margin: 0;
-      padding: 0 5vw;
-      font-size: clamp(2.2rem, 6vw, 4rem);
-      font-weight: 500;
-    }
-
-    /* Content */
-    main { padding: 0 5vw; }
-    .approach {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 70px 0 30px;
-    }
-    .approach p { font-size: 1.1rem; margin: 0 0 1.5em; }
-
-    .bio {
-      max-width: 1100px;
-      margin: 0 auto;
-      padding: 30px 0 80px;
-      display: grid;
-      grid-template-columns: 1.4fr 1fr;
-      gap: 50px;
-      align-items: start;
-    }
-    .bio h2 {
-      margin: 0 0 0.6em;
-      font-size: 2rem;
-      font-weight: 500;
-    }
-    .bio p { font-size: 1.05rem; margin: 0 0 1.5em; }
-    .bio img {
-      width: 100%;
-      height: auto;
-      display: block;
-      border-radius: 4px;
-    }
-
-    /* Footer */
-    footer {
-      text-align: center;
-      padding: 40px 5vw;
-      background: #f3f3f3;
-      font-size: 0.95rem;
-    }
-    footer p { margin: 0.3em 0; }
-    footer a { margin: 0 10px; }
-
-    @media (max-width: 800px) {
-      header { flex-direction: column; gap: 12px; padding: 20px 5vw; }
-      nav ul { gap: 20px; }
-      .bio { grid-template-columns: 1fr; }
-    }
-  </style>
-</head>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="./Resources/css/style.css" media="screen"/>
+    <title>Adaptive Learning - Python</title>
+  </head>
 <body>
 
-  <header>
-    <a class="site-title" href="index.html">Phillip Coulson Psychotherapy</a>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#">Services and Fees</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+<h1 style="font-family: Arial;">Python is a Coding Language!</h1>
 
-  <section class="hero">
-    <h1>My approach to therapy</h1>
-  </section>
+<nav>
+   <ul>
+    <li style="font-family: Arial;"><a href="#About These Videos">About These Videos</a></li>
+    <li style="font-family: Arial;"><a href="#Accessible Python: Grammar Video">Accessible Python: Grammar Video</a></li>
+    <li style="font-family: Arial;"><a href="#Accessible Python: Branching Video">Accessible Python: Branching Video</a></li>
+    <li style="font-family: Arial;"><a href="#Accessible Python: Iterators Video">Accessible Python: Iterators Video</a></li>
+    <li style="font-family: Arial;"><a href="#Introduction to Python">Introduction to Python</a></li>
+    <li style="font-family: Arial;"><a href="#Accessible Terminal Video">Accessible Terminal Video</a></li>
+    <li style="font-family: Arial;"><a href="#Introduction to Terminal">Introduction to Terminal</a></li>
+    <li style="font-family: Arial;"><a href="#About Me">About Me</a></li>
+   </ul>
+</nav>
 
-  <main>
-    <section class="approach">
-      <p>Therapy is a place where gentle curiosity, sensitivity, and courage to face what is difficult can allow a powerful healing process to unfold. It’s a place where you’re invited to bring yourself precisely as you are, especially if that’s messy, in-motion, or contradictory. I will hold space for you to find and feel your feelings, connect with the experiential wisdom of your body, and experiment with language that expresses your truth.</p>
 
-      <p>We all need connection to thrive. So many of our wounds have their origin in relationship and are best healed in relationship. Therapy is a wonderful opportunity to do just that, and to explore your relationship to intimacy and (dis)connection. Beyond this, showing up as your authentic self and being seen, understood, and accepted is a powerful healing experience.</p>
+<div id="About These Videos">
+    <h2 style="font-family: Arial;">About These Videos</h2>
+    <h3 style="font-family: Arial;">These videos are resources to help people learn to code. They provide introductions to the Python language and to the Terminal application. These videos are tailored to various learning styles</h3>
+    <ul>
+      <li style="font-family: Arial;">Visual</li>
+      <li style="font-family: Arial;">Auditory</li>
+      <li style="font-family: Arial;">Kinesthetic</li>
+    </ul>
+    <h3 style="font-family: Arial;">Supported Learning</h3>
+    <p style="font-family: Arial;">These videos are tailored for people with learning differences or disability.</p>
+    <p style="font-family: Arial;">Watch these videos to learn about Terminal and/or Python with visual, auditory and kinesthetic reinforcements every step of the way. You will hear explanations, see visualizations of dialog, see images and graphic reinforcements. Watch (and follow along with) these video to gain a foundational understanding of Python and/or Terminal when learning-to-code.</p>
+</div>
 
-      <p>Being a human is hard. We all face a world that is at times painful, confusing, and cruel, and it’s up to us to figure out how to live. How do we respond to the situation we find ourselves in? How do we live in integrity with our truth and values when there are so many obstacles? How do we accomplish our most cherished goals, and what even are those, exactly? As an existential therapist, I will join you in these murky waters. I will help you seek clarity and calm to live these challenging questions.</p>
-    </section>
+<div id="Accessible Python: Grammar Video">
+    <h2 style="font-family: Arial;">Accessible Video for Python: Grammar (1hr21min)</h2>
+  <a href=" https://youtu.be/veKI0D4Xvd8 " target="_blank">
+  <img src="./Resources/Images/Python2.png" height="300" width="500" alt="WATCH Introduction to Python: Grammar VIDEO" /></a>
 
-    <section class="bio">
-      <div>
-        <h2>Phillip Coulson, MA, LMHC</h2>
+  <h3 style="font-family: Arial;">Python: Grammar Learning Goals</h3>
+    <ol>
+      <li style="font-family: Arial;">Understand and identify different data types (string, integer, float). </li>
+      <li style="font-family: Arial;">Assign data to variables.</li>
+      <li style="font-family: Arial;">Use the print function.</li>
+      <li style="font-family: Arial;">Understand and use string concatenation and string interpolation.</li>
+      <li style="font-family: Arial;">Identify and debug simple syntax errors.</li>
+    </ol>
 
-        <p>I graduated with a Masters of Arts in Psychology from Seattle University where I studied Existential-Phenomenological Psychology, which focuses on understanding people in their full embodied uniqueness, rather than as reductive abstrations like categories or brain chemicals. Prior to starting my own therapy practice I worked as a therapist at the LGBTQ-focused Seattle Counseling Service until it tragically shut down in Spring 2022. Before making a career change to become a therapist, I have pursued a rich and varied career including working as an ESL teacher in South Korea, as a professional poker player, and as a product manager.</p>
+  <div id="Accessible Python: Branching Video">
+    <h2 style="font-family: Arial;">Accessible Video for Python: Branching (57min)</h2>
+  <a href=" https://youtu.be/poQ9zn-PG54 " target="_blank">
+  <img src="./Resources/Images/Python3.png" height="300" width="500" alt="WATCH Introduction to Python: Branching VIDEO" /></a>
 
-        <p>I am nonbinary, pan/bi, and white. My work is informed by internal family systems, somatic, humanistic, and relational psychoanalytic techniques. I strongly believe in the importance of practicing in a trauma-informed way and will help you learn to monitor your body to know when our work is too much - or too little. My work is influenced by my interest in philosophy and its exploration of the human condition for millennia. Similarly, my work is influenced by Buddhism and my practice of Vipassana meditation. I strive to maintain a two hour daily meditation practice and have participated in or volunteered on more than 100 days of meditation retreats.</p>
-      </div>
+  <h3 style="font-family: Arial;">Python: Branching Learning Goals</h3>
+  <ol>
+    <li style="font-family: Arial;">Understand and use relational operators. </li>
+    <li style="font-family: Arial;">Understand and be able to use conditional statements.</li>
+    <li style="font-family: Arial;">Understand the control flow of a program.</li>
+    <li style="font-family: Arial;">Identify and debug simple logic errors.</li>
+  </ol>
 
-      <img src="./Resources/Images/StickHuman.png" alt="Image of Phillip Coulson, Seattle Existential Somatic Therapist" />
-    </section>
-  </main>
+  <div id="Accessible Python: Iterators Video">
+    <h2 style="font-family: Arial;">Accessible Video for Python: Iterators (48min)</h2>
+  <a href=" https://youtu.be/I-iW6YivYS4 " target="_blank">
+  <img src="./Resources/Images/Python5.png" height="300" width="500" alt="WATCH Introduction to Python: Iterators VIDEO" /></a>
 
-  <footer>
-    <p>Phillip Coulson Psychotherapy PLLC</p>
-    <p>
-      <a href="#">Privacy Policy</a>
-      <a href="#">Cookie Policy</a>
-    </p>
-    <p><a href="mailto:phillip@phillipcoulsonpsychotherapy.com">phillip@phillipcoulsonpsychotherapy.com</a></p>
-  </footer>
+  <h3 style="font-family: Arial;">Python: Iterators Learning Goals</h3>
+  <ol>
+    <li style="font-family: Arial;">Define Terms. </li>
+    <li style="font-family: Arial;">Explain the purpose of iteration in creating programs.</li>
+    <li style="font-family: Arial;">Write loops in order to prevent code duplication and repetition.</li>
+    <li style="font-family: Arial;">Understand how a loop will execute the statements inside and what the resulting output will be.</li>
+    <li style="font-family: Arial;">Debug code with loops. </li>
+  </ol>
+
+</div>
+<div id="Introduction to Python">
+    <h2 style="font-family: Arial;">Introduction to Python</h2>
+
+    <p style="font-family: Arial;"> Python is a high-level coding language.  <strong>Let's Learn Python</strong>.
+      <br />
+      A great way to learn Python is to practice!
+      <a href="https://adadevelopersacademy.org/ada-build-prepare/" target="_blank">
+        <img src="./Resources/Images/Ada.png" height="35" width="110" alt="Ada Developers Academy" /></a> Be sure to complete courses like these ones, "Ada Build - Intro to Python" that help you get comfortable using your Python skills.</p>
+
+    
+</div>
+<h1 style="font-family: Arial;">Terminal is a Software Application!</h1>
+
+<div id="Accessible Terminal Video">
+  <h2 style="font-family: Arial;">Accessible Video for Learning Terminal (46min)</h2>
+<a href="https://www.youtube.com/watch?v=dZu3lIkIbIA" target="_blank">
+<img src="./Resources/Images/Terminal.png" height="300" width="500" alt="WATCH Terminal Introduction VIDEO" /></a>
+  
+<div id="Introduction to Terminal">
+  <h2 style="font-family: Arial;">Introduction to Terminal</h2>
+
+  <p style="font-family: Arial;"> The terminal is the software application we use to interact with the console. Terminal is a command language interpreter - so it can interpret text commands (inputs) into various computer operations (outputs). The terminal is the place where we type texts (or commands) in our command line. The terminal is the place where we can talk directly to our computer with texts. <strong>Let's Learn Terminal</strong>.
+    <br />
+    A great way to learn Terminal is to practice!
+    <a href="https://www.codecademy.com/learn/learn-the-command-line" target="_blank">
+      <img src="./Resources/Images/CodeCademy.png" height="25" width="110" alt="Learn The Command Line Course" /></a> Be sure to complete courses like "Learn the Command Line" that help you get comfortable using Terminal to navigate your computer.</p>
+
+  <h3 style="font-family: Arial;">Terminal: Learning Goals</h3>
+  <ol>
+    <li style="font-family: Arial;">Learn Terminology </li>
+    <li style="font-family: Arial;">Learn the advantages of the command line</li>
+    <li style="font-family: Arial;">Learn and utilize basic terminal commands</li>
+    <li style="font-family: Arial;">Utilize the terminal to navigate, create, delete and modify files and folders</li>
+  </ol>
+
+  
+</div>
+
+   <h2 style="font-family: Arial;">About Neurodiversity</h2>
+<p style="font-family: Arial;"> WHAT we do is just as important as HOW we accomplish it. Every person brings valuable insights and approaches to projects and problem-solving. Neurodiversity is a competitive advantage for companies and organizations, especially in tech. HOW you learn - can enhance your capacity to see and solve problems in ways that might-not come as easily to others. People with learning differences often adjust to cope with academic structures that are-not designed with disability in mind. The problem-solving skills people develop through managing unique learning styles can be advantageous to your career. Keep going! </p>
+
+
+<!--Link to Resume-->
+<div id="About Me">
+  <a href="Resources/al_resume.pdf"><img src="./Resources/Images/About.png" height="350" width="600" alt="ABOUT ME" /></a>
+</div>
 
 </body>
 </html>
